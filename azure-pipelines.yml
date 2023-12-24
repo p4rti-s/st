@@ -1,4 +1,9 @@
 # Starter pipeline
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    appType: 'webAppContainer'
+    WebAppName: 'starter'
 - task: AzurePowerShell@5
   inputs:
     ScriptType: 'FilePath'
