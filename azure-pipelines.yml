@@ -4,7 +4,7 @@
     ConnectionType: 'AzureRM'
     appType: 'webAppContainer'
     WebAppName: 'starter'
-- task: AzurePowerShell@5
+- task: AzurePowerShell@2_
   inputs:
     ScriptType: 'FilePath'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
